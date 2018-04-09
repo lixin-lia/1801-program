@@ -1,0 +1,58 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img ,span,div{ margin:0; padding:0; }
+fieldset ,a{text-decoration:none;}
+ul, ol {list-style:none;}
+img{border:none; }
+h1,h2,h3,h4,h5,h6,b,strong{font-weight:normal;}
+em,i{font-style:normal;}
+body{font-family:"微软雅黑","Arial Narrow", HELVETICA;font-size:12px;}
+.left{float:left;}
+.right{float:right;}
+.clear{clear:both;}
+input{outline: none;}
+
+/*全局*/
+header,.headerWrap,.navWrap{width:100%;}
+.header,.logoW,.nav{width:1210px;margin:0 auto;}
+/*header*/
+header{height:80px;background:url(../images/header.jpg) center top;}
+.headerWrap{height:30px;background-color: #f2f2f2;position: relative;}
+.header ul li{float:left;height:30px;line-height: 15px;text-align:center;line-height: 30px;}
+.header-r{float:right;}
+.index{background:url(../images/index.jpg) no-repeat 0 7px;width:87px;padding-left: 23px;}
+.phone{background:url(../images/phone_03.jpg) no-repeat 0 7px;margin-left:18px;padding-left:18px;}
+.header-r>li{padding:0 18px;background:url(../images/shu_03.jpg) no-repeat 0 7px;}
+.header-r>li:first-child{background:none;}
+.header-r{background:url(../images/reg_03.jpg) no-repeat 80px 0;}
+.header-r>li:nth-child(2){padding-left: 47px;}
+
+.h-ul{position: absolute;z-index: 2;left:895px;top:30px;background-color: #fff;width:117px;display: none;}
+.h-ul li{clear:both;width:117px;text-align: center;}
+.header-r .five{background:url(../images/jiao1_03.jpg) no-repeat 105px 13px,url(../images/shu_03.jpg) no-repeat 0 7px;padding-right: 42px;}
+.header-r .five:hover+.h-ul{display: block;z-index: 2;}
+.five:hover>a{color:#b28247;}
+.header-r .five:hover{background: url(../images/jiao2_03.jpg) no-repeat 105px 13px,url(../images/shu_03.jpg) no-repeat 0 7px #fff;}
+.header-r .pho{background:url(../images/wem1_03.jpg) no-repeat 85px 8px,url(../images/shu_03.jpg) no-repeat 0 7px;width:108px;}
+.header-r .pho a{margin-right: 40px;}
+
+.pho dl{display:none;background-color: #fff;width:135px;z-index: 2;position: relative;margin-left: -15px;padding-right: 13px;}
+.pho dd{height:22px;line-height:20px;}
+.pho:hover{background:url(../images/wem2_03.jpg) no-repeat 85px 8px,url(../images/shu_03.jpg) no-repeat 0 7px #fff;}
+.header-r .pho:hover dl{display: block;}
+
+/*logo*/
+.logoW{height:110px;position: relative;}
+.logo{height:110px;}
+.yijian{margin:15px 0 0 46px;}
+.search{width:264px;height:36px;border:2px solid #c69c6d;margin:35px 0 0 56px;}
+.sear{width:83px;height:42px;background-color: #c69c6d;margin-top:35px;}
+.sear a{color:#fff;font-size: 15px;line-height: 42px;margin-left: 23px;}
+.logoW ul{position: absolute;left:488px;top:82px;}
+.logoW ul li{float:left;color:#999999;padding-right: 25px;}
+.logoW>img{margin:36px 0 0 56px;z-index: 0;}
+
+/*nav*/
+.navWrap{height:38px;background-color: #191919;}
+.nav li{float:left;line-height: 38px;padding:0 27px;}
+.nav li a{color:#c8883f;font-size: 14px;}
+.daodian i{width:19px;height:40px;display:inline-block;background: url(../images/share02.png) no-repeat -58px -169px;float:left;}
+.daodian span{display:inline-block;float:left;}
