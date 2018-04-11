@@ -1,0 +1,122 @@
+* {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+}
+
+body {
+        color: rgb(0, 0, 0);
+        text-size-adjust: none;
+        font: 12px/200% "microsoft yahei", 微软雅黑, Helvetica, Arial, Tahoma, 黑体, 宋体, sans-serif;
+}
+
+a:focus {
+        outline: none;
+}
+
+i {
+        font-style: normal;
+}
+
+input {
+        outline: none;
+        box-shadow: none;
+}
+
+.fl {
+        float: left;
+}
+
+.fr {
+        float: right;
+}
+input:focus {
+        border-color: #000;
+}
+.input-error:focus {
+        border-color: #F62B0F;
+}
+.login-header {
+        height: 98px;
+}
+
+.login-header .login-header-center {
+        width: 1210px;
+        height: 100%;
+        margin: 0 auto;
+        font-size: 0;
+}
+
+.login-header .login-header-center .fivelux-logo {
+        display: inline-block;
+        height: 98px;
+        width: 244px;
+        background-size: 244px 98px;
+        background-repeat: no-repeat;
+        background-image: url(/vendor/images/5lux/login/new/5luxlogo.jpg);
+}
+
+.login-header .login-header-center .header-line {
+        display: inline-block;
+        width: 2px;
+        height: 44px;
+        vertical-align: middle;
+        background-color: #ccc;
+        margin: 0 18px;
+}
+
+.login-header .login-header-center .header-text {
+        display: inline-block;
+        font-size: 22px;
+        color: #999;
+        vertical-align: middle;
+}
+
+.login-header .login-header-center .header-right {
+        display: table;
+        *zoom: 1;
+        *display: block;
+        font-size: 0;
+        height: 100%;
+}
+
+.login-header .login-header-center .header-right i {
+        display: inline-block;
+        width: 19px;
+        height: 19px;
+        padding-right: 10px;
+        background-image: url(/vendor/images/5lux/login/new/phone-logo.png);
+        background-size: 19px 19px;
+        background-repeat: no-repeat;
+        vertical-align: middle;
+}
+
+.login-header .login-header-center .header-right p {
+        display: inline-block;
+        *zoom: 1;
+        *display: block;
+        color: #666;
+        font-size: 13px;
+        vertical-align: middle;
+}
+
+.login-warpper {
+        width: 100%;
+        text-align: center;
+}
+
+.login-warpper .login-center-wp {
+        position: relative;
+        width: 1210px;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        margin: 0 auto;
+}
+
+.login-warpper .login-center-wp .login-c-right {
+    width: 400px;
+    float: right;
+    margin-right: 40px;
+    padding: 30px 0;
+}
