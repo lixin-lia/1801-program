@@ -68,3 +68,4 @@ $(".r-btn").mouseleave(function(){
     timer = setInterval(autoPlay,2000);
 })
 
+$("#index-h").load("html/public.html #index-header");

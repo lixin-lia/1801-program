@@ -1,0 +1,133 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img ,span,div{ margin:0; padding:0; }
+fieldset ,a{text-decoration:none;}
+ul, ol {list-style:none;}
+img{border:none; }
+h1,h2,h3,h4,h5,h6,b,strong{font-weight:normal;}
+em,i{font-style:normal;}
+body{font-family:"微软雅黑","Arial Narrow", HELVETICA;font-size:12px;}
+.left{float:left;}
+.right{float:right;}
+.clear{clear:both;}
+input{outline: none;}
+
+
+.loginWrap{
+	width:100%;
+	height:585px;
+	background: url(../images/login_background1.jpg) no-repeat center;
+	background-size: 100%;
+}
+.login-main{
+	width:400px;
+	height:524px;
+	background-color: #fff;
+	position: absolute;
+	left:772px;
+	top:126px;
+
+}
+.login-top{
+	height:90px;
+	width:267px;
+	font-size: 19px;
+	line-height: 90px;
+	text-align: center;
+    margin-left: 68px;
+    display: flex;
+    justify-content: space-between;
+}
+.login-top i{
+	display: inline-block;
+	width:3px;
+	height:23px;
+	background-color: #999999;
+	margin-top: 34px;
+}
+.login-top a{
+	display: inline-block;
+	color:#999;
+}
+.login-pic{
+	width:165px;
+	height:165px;
+	margin:36px 0 0 120px;
+    overflow: hidden;
+}
+.login-pic ._pic{
+	height:165px;
+	width:330px;
+}
+.open{
+	height:50px;
+	margin:25px auto;
+}
+.open p{
+	height:25px;
+	line-height: 25px;
+	color:#999999;
+	font-size: 14px;text-align: center;
+}
+.open p i{
+	color:#ff9900;
+}
+.other{
+	margin: 48px 0 19px 0 ;
+}
+.login-logo{
+	width:175px;
+	height:35px;
+	display: flex;
+	justify-content: space-between;
+	margin:0 auto;
+}
+
+.account input{
+	width:317px;
+	height:50px;
+	margin:0 0 18px 30px;
+	color:#999999;
+	font-size: 14px;
+	padding-left: 20px;
+}
+.account .nbtn{
+    width:340px;
+	height:50px;
+	color:#fff;
+	font-size: 16px;
+	background-color: #333333;
+	border:0;
+	margin-top: 36px;
+}
+.account .rad{
+	width:13px;
+	height:13px;
+}
+.auto img{
+	position: absolute;
+	left:30px;
+	top:342px;
+	display: none;
+	
+}
+.auto label{
+	color:#999;
+}
+.auto .r-auto{
+	display: inline-block;
+	float:right;
+	margin-right: 31px;
+	
+}
+.auto .r-auto a{
+	color:#999;
+}
+.auto .r-auto a:nth-child(1){
+	color:#ff9900;
+}
+
+.ewm{
+	display: block;
+}
+.account{
+	display: none;
+}
