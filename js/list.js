@@ -8,3 +8,5 @@ $(".all").mouseleave(function(){
 	$(".list-ban-hidden").css("display","none");
 
 })
+
+$("#list-nav").load("public.html #index-nav");

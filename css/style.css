@@ -24,7 +24,6 @@ header{height:80px;background:url(../images/header.jpg) center top;}
 .header-r>li:first-child{background:none;}
 .header-r{background:url(../images/youli.gif) no-repeat 80px 0;}
 .header-r>li:nth-child(2){padding-left: 47px;}
-
 .h-ul{position: absolute;z-index: 2;left:895px;top:30px;background-color: #fff;width:117px;display: none;}
 .h-ul li{clear:both;width:117px;text-align: center;}
 .header-r .five{background:url(../images/jiao1_03.jpg) no-repeat 105px 13px,url(../images/shu_03.jpg) no-repeat 0 7px;padding-right: 42px;}
@@ -72,7 +71,7 @@ header{height:80px;background:url(../images/header.jpg) center top;}
 	float: left;
 	height:38px;
 }
-.red{background-color: #cf0101;}
+.red{background-color: #cf0101;position: relative;}
 .nav .red a{color:#fff;}
 .red{
 	width:90px;
@@ -82,7 +81,7 @@ header{height:80px;background:url(../images/header.jpg) center top;}
 	z-index: 10;
 	display: none;
 	position: absolute;
-	left:18px;
+	left:0px;
 	width:136px;
 	height:541px;	
 	color:#000;	
