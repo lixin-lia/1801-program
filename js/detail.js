@@ -1,6 +1,7 @@
 // 引用样式
 $("#detail-header").load("public.html #index-header");
 $("#detail-nav").load("public.html #index-nav");
+$("#detail-footer").load("public.html #index-footer");
 
 // 划过效果
 

@@ -14,7 +14,7 @@ input{outline: none;}
 /*放大镜*/
 .detail-main{
 	width:1100px;
-	height:800px;
+	height:650px;
 	
 	margin:15px auto 0;
 }
@@ -113,33 +113,9 @@ input{outline: none;}
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .txt-box{
 	width:560px;
-	height:799px;
+	height:650px;
 	float:left;
 	padding-left: 60px;
 	
